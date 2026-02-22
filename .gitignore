@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.pyc
+*.pyo
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Generated data — committed to GitHub so the repo is self-contained
+# (synthetic only, no PII; CSV files are ~5 MB each)
+# data/raw/*.csv        ← intentionally NOT ignored
+# data/processed/*.csv  ← intentionally NOT ignored
+
+# Figures — committed so README image embeds render on GitHub
+# reports/figures/*.png ← intentionally NOT ignored
+
+# Large binary model files — NOT committed (can be 50–200 MB each)
+# Run `python generate_all.py` to rebuild them locally.
+models/*.pkl
+models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.log
+*.tmp
